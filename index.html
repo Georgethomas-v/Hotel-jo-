@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOTEL JO</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-info fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand text-white fw-bold"  >HOTEL JO</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#menu">Menu</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Our Special
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#biriyani">Chicken Biriyani</a></li>
+            <li><a class="dropdown-item" href="#club">Club Shawarma</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#juice">juices</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="#about">About</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Our Branches" aria-label="Search"/>
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<section>
+  <div id="carouselExampleCaptions" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/biriyani.jpg" class="slide d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>CHICKEN BIRIYANI</h5>
+        <p>Best Biriyani In The Town</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="images/pizza.jpg" class="slide d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>CHEESY PIZZA</h5>
+        <p>Explore the Magic of Cheese</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="images/chicken lolipop.jpg" class=" slide d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>LOLIPOP</h5>
+        <p>Experience The  Spice</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</section>
+<!-- Order food -->
+ <div class="heading-1">
+<h1 class="text-center">GRAB YOUR TASTE..</h1>
+ </div>
+<div class="container-fluid bg-success">
+  <!-- card row 1 -->
+<div class="container-fluid">
+  <div class="row justify-content-center h-100" id="menu">
+    <div class="col-12 col-sm-6 col-md-4 mb-4">
+      <div class="card text-center hieght">
+        <img src="images/dosa.jpg" class="card-img-top" alt="dosa img">
+        <div class="card-body">
+          <h5 class="card-title">Dosa</h5>
+          <p class="card-text">Crispy Hot Dosa</p>
+          <h5 class="card-title">Rs.50</h5>
+          <p>Cooking Time: 10 Min</p>
+          <a href="#" class="btn btn-primary">Order Now</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-sm-6 col-md-4 mb-4">
+      <div class="card text-center h-100 ">
+        <img src="images/sambar.jpg" class="card-img-top" alt="dosa img">
+        <div class="card-body">
+          <h5 class="card-title">Sambar</h5>
+          <p class="card-text">Tasty Spicy Sambar</p>
+          <h5 class="card-title">Rs.30</h5>
+          <p>Cooking Time: 15 Min</p>
+          <a href="#" class="btn btn-primary">Order Now</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-sm-6 col-md-4 mb-4" id="biriyani">
+      <div class="card text-center h-100">
+        <img src="images/biriyani.jpg" class="card-img-top" alt="dosa img">
+        <div class="card-body">
+          <h5 class="card-title">Chicken Biriyani</h5>
+          <p class="card-text">Best In Town</p>
+          <h5 class="card-title">Rs.150</h5>
+          <p>Serving Time:10 Min</p>
+          <a href="#" class="btn btn-primary">Order Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- card row 2 -->
+<div class="container-fluid">
+  <div class="row justify-content-center ">
+    <div class="col-12 col-sm-6 col-md-4 mb-4">
+      <div class="card text-center hieght">
+        <img src="images/Masala Dosa.jpg" class="card-img-top" alt="dosa img">
+        <div class="card-body">
+          <h5 class="card-title"> Masala Dosa</h5>
+          <p class="card-text">Crispy Spicy Hot Masala Dosa</p>
+          <h5 class="card-title">Rs.70</h5>
+          <p>Cooking Time: 15 Min</p>
+          <a href="#" class="btn btn-primary">Order Now</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-sm-6 col-md-4 mb-4">
+      <div class="card text-center ">
+        <img src="images/idli.jpg" class="card-img-top" alt="dosa img">
+        <div class="card-body">
+          <h5 class="card-title">Idili</h5>
+          <p class="card-text">Soft Puffy Idili</p>
+          <h5 class="card-title">Rs.40</h5>
+          <p>Cooking Time: 15 Min</p>
+          <a href="#" class="btn btn-primary">Order Now</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-sm-6 col-md-4 mb-4">
+      <div class="card text-center ">
+        <img src="images/GheeRoast.jpg" class="card-img-top" alt="dosa img">
+        <div class="card-body">
+          <h5 class="card-title">Ghee Roast</h5>
+          <p class="card-text">experience the crispness</p>
+          <h5 class="card-title">Rs.80</h5>
+          <p>Serving Time:15 Min</p>
+          <a href="#" class="btn btn-primary">Order Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- card 3 -->
+
+<div class="container-fluid">
+  <div class="row justify-content-center ">
+    <div class="col-12 col-sm-6 col-md-4 mb-4">
+      <div class="card text-center hieght">
+        <img src="images/shawarma.jpg" class="card-img-top" alt="dosa img">
+        <div class="card-body">
+          <h5 class="card-title">Shawarma Rolls(3)</h5>
+          <p class="card-text">Safest Shawarma in Town</p>
+          <h5 class="card-title">Rs.120</h5>
+          <p>Cooking Time: 15 Min</p>
+          <a href="#" class="btn btn-primary">Order Now</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-sm-6 col-md-4 mb-4" id="club">
+      <div class="card text-center ">
+        <img src="images/club shawarma.jpg" class="card-img-top" alt="dosa img">
+        <div class="card-body">
+          <h5 class="card-title">Club Shawarma</h5>
+          <p class="card-text">CREamy Sweety Shawarma</p>
+          <h5 class="card-title">Rs.200</h5>
+          <p>Cooking Time: 20 Min</p>
+          <a href="#" class="btn btn-primary">Order Now</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-sm-6 col-md-4 mb-4">
+      <div class="card text-center ">
+        <img src="images/loaded fries.jpg" class="card-img-top" alt="dosa img">
+        <div class="card-body">
+          <h5 class="card-title">Loaded Fries</h5>
+          <p class="card-text">Cheesy fries </p>
+          <h5 class="card-title">Rs.130</h5>
+          <p>Serving Time:20 Min</p>
+          <a href="#" class="btn btn-primary">Order Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- card row 4 -->
+
+<div class="container-fluid"id="juice">
+  <div class="row justify-content-center ">
+    <div class="col-12 col-sm-6 col-md-4 mb-4">
+      <div class="card text-center hieght">
+        <img src="images/Pinapple.jpg" class="card-img-top" alt="dosa img">
+        <div class="card-body">
+          <h5 class="card-title">Pineapple Juice</h5>
+          <p class="card-text">Fresh juice</p>
+          <h5 class="card-title">Rs.60</h5>
+          <p>Cooking Time: 10 Min</p>
+          <a href="#" class="btn btn-primary">Order Now</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-sm-6 col-md-4 mb-4">
+      <div class="card text-center ">
+        <img src="images/lime juice.jpg" class="card-img-top" alt="dosa img">
+        <div class="card-body">
+          <h5 class="card-title">Lime Juice</h5>
+          <p class="card-text">Fresh juice</p>
+          <h5 class="card-title">Rs.20</h5>
+          <p>Cooking Time: 10 Min</p>
+          <a href="#" class="btn btn-primary">Order Now</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-sm-6 col-md-4 mb-4">
+      <div class="card text-center ">
+        <img src="images/mint lime juice.jpg" class="card-img-top" alt="dosa img">
+        <div class="card-body">
+          <h5 class="card-title">Mint Lime Juice</h5>
+          <p class="card-text">Fresh Juice</p>
+          <h5 class="card-title">Rs.35</h5>
+          <p>Serving Time:10 Min</p>
+          <a href="#" class="btn btn-primary">Order Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- footer -->
+<div class="container-fluid bg-info " id="about" style="position: relative; z-index: 1;">
+  <div class="row justify-content-center text-center text-white">
+    <div class="col-12">
+      <h1>About Us</h1>
+    </div>
+
+    <div class="col-12 col-sm-6 col-lg-4 md-6">
+      <h2 class="fw-bold">HOTEL JO</h2>
+      <h4>Kochi</h4>
+      <p>Tel no: 0483-276845</p>
+      <p>Email: <a href="mailto:HotelJo2000@gmail.com" class="text-white text-decoration-underline">HotelJo2000@gmail.com</a></p>
+      <p>Website: <a href="#" class="text-white text-decoration-underline">www.HotelJo.com</a></p>
+    </div>
+
+    <div class="col-12 col-sm-6 col-lg-4 md-6">
+      <img src="images/jo hotel.jpg" alt="Hotel JO" class="img-fluid rounded shadow-lg" style="max-width: 250px; width: 100%; height: auto;">
+    </div>
+  </div>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+ <script src="js/bootstrap.js"></script>
+</body>
+</html>
